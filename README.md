@@ -79,8 +79,10 @@ r=float
 r=float(input("digitar el radio: "))
 x=float(input("digitar x: "))
 y=float(input("digitar y: "))
-if (x*x + y*y >= r**2):
-    print("esta por fuera de la circunferencia de radio" + str(r))
+if (x*x + y*y > r**2):
+    print("esta por fuera de la circunferencia de radio  " + str(r))
+elif (x*x + y*y  == r**2):
+    print("esta justo sobre la circunferencia de radio  " + str(r))
 else:
     print("esta dentro de la circunferencia")  
 
