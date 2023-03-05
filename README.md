@@ -1,5 +1,5 @@
 # sol_retito_5
-##programando y llorando ando
+## programando y llorando ando
 
 En este repo estaremos desarrollando el reto 5
 ### punto 1
